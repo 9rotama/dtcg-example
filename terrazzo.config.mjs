@@ -11,9 +11,10 @@ export default defineConfig({
       filename: 'tailwind-tokens.css',
       theme: {
         /** @see https://tailwindcss.com/docs/configuration#theme */
-        colors: ['Color.Color.*'],
+        color: ['Color.Color.*'],
         text: ['Typography.FontSize.*'],
         font: ['Typography.FontFamily.*'],
+        "font-weight": ['Typography.FontWeight.*'],
         radius: ['Size.BorderRadius.*'],
         shadow: ['Effect-styles.Elevation.*']
       }
