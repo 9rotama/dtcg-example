@@ -1583,6 +1583,178 @@
       }
     }
   },
+  "Effect-styles": {
+    "Elevation": {
+      "1": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "5px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "2px",
+            "blur": "8px",
+            "spread": "1px"
+          }
+        ]
+      },
+      "2": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "6px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "2px",
+            "blur": "12px",
+            "spread": "2px"
+          }
+        ]
+      },
+      "3": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "1px",
+            "blur": "6px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "4px",
+            "blur": "16px",
+            "spread": "3px"
+          }
+        ]
+      },
+      "4": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "2px",
+            "blur": "6px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "6px",
+            "blur": "20px",
+            "spread": "4px"
+          }
+        ]
+      },
+      "5": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "2px",
+            "blur": "10px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "8px",
+            "blur": "24px",
+            "spread": "5px"
+          }
+        ]
+      },
+      "6": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "3px",
+            "blur": "12px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "10px",
+            "blur": "30px",
+            "spread": "6px"
+          }
+        ]
+      },
+      "7": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "3px",
+            "blur": "14px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "12px",
+            "blur": "36px",
+            "spread": "7px"
+          }
+        ]
+      },
+      "8": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "inset": false,
+            "color": "#0000004d",
+            "offsetX": "0px",
+            "offsetY": "3px",
+            "blur": "16px",
+            "spread": "0px"
+          },
+          {
+            "inset": false,
+            "color": "#0000001a",
+            "offsetX": "0px",
+            "offsetY": "14px",
+            "blur": "40px",
+            "spread": "7px"
+          }
+        ]
+      }
+    }
+  },
   "$extensions": {
     "tokens-bruecke-meta": {
       "useDTCGKeys": true,
@@ -1592,7 +1764,7 @@
         "Typography",
         "Size"
       ],
-      "createdAt": "2025-12-06T11:47:28.295Z"
+      "createdAt": "2025-12-06T12:39:16.654Z"
     }
   }
 }
