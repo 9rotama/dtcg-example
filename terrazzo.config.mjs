@@ -1,16 +1,25 @@
 import { defineConfig } from '@terrazzo/cli';
-import js from '@terrazzo/plugin-js';
-import css from '@terrazzo/plugin-css';
 import tailwind from '@terrazzo/plugin-tailwind';
+import css from '@terrazzo/plugin-css';
 export default defineConfig({
-  tokens: ['./tokens.json'],
+  tokens: ['./tokens/digital-go.tokens.json'],
   plugins: [
-    js(),
-    css(),
-    tailwind(),
+    css({
+      filename: "css-tokens.css"
+    }),
+    tailwind({
+      filename: "tailwind-tokens.css",
+      theme: {
+        /** @see https://tailwindcss.com/docs/configuration#theme */
+        colors: ['Color.Color.*'],
+        text: ['Typography.FontSize.*'],
+        font: ['Typography.FontFamily.*'],
+        radius: ['Size.BorderRadius.*']
+      }
+    })
   ],
-  outDir: './dist/',
+  outDir: './src/routes/',
   lint: {
     /** @see https://terrazzo.app/docs/cli/lint */
-  },
+  }
 });
