@@ -1,6 +1,6 @@
 # dtcg-example
 
 - [ ] save exported token
-- [ ] export to css
-- [ ] export to tailwind
+- [x] export to css
+- [x] export to tailwind
 - [ ] export to ts

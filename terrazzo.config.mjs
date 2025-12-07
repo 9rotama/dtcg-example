@@ -1,9 +1,15 @@
 import { defineConfig } from '@terrazzo/cli';
 import tailwind from '@terrazzo/plugin-tailwind';
 import css from '@terrazzo/plugin-css';
+import js from "@terrazzo/plugin-js";
+
 export default defineConfig({
   tokens: ['./tokens/digital-go.tokens.json'],
   plugins: [
+    js({
+      js: "tokens.js",
+      ts: "tokens.d.ts"
+    }),
     css({
       filename: 'css-tokens.css'
     }),
