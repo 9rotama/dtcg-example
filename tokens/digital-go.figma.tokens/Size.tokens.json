@@ -1,0 +1,111 @@
+{
+  "BorderRadius": {
+    "4": {
+      "$type": "number",
+      "$value": 4,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31948",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-4)"
+        }
+      }
+    },
+    "6": {
+      "$type": "number",
+      "$value": 6,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:8514:24128",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-6)"
+        }
+      }
+    },
+    "8": {
+      "$type": "number",
+      "$value": 8,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31945",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-8)"
+        }
+      }
+    },
+    "12": {
+      "$type": "number",
+      "$value": 12,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:8514:24129",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-12)"
+        }
+      }
+    },
+    "16": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31946",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-16)"
+        }
+      }
+    },
+    "24": {
+      "$type": "number",
+      "$value": 24,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31949",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-24)"
+        }
+      }
+    },
+    "32": {
+      "$type": "number",
+      "$value": 32,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31947",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-32)"
+        }
+      }
+    },
+    "Full": {
+      "$type": "number",
+      "$value": 9999,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7717:41135",
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--border-radius-full)"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Size"
+  }
+}

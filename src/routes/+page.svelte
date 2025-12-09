@@ -3,11 +3,11 @@
 
   const tags = {
     succeed: {
-      color: token('Color.Color.Primitive.Blue.900').hex,
+      color: token('Color.Primitive.Blue.900').hex,
       text: '成功'
     },
     fail: {
-      color: token('Color.Color.Primitive.Red.900').hex,
+      color: token('Color.Primitive.Red.900').hex,
       text: '失敗'
     }
   } as const;

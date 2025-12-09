@@ -1,0 +1,260 @@
+{
+  "FontWeight": {
+    "400": {
+      "$type": "number",
+      "$value": 400,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31928",
+        "com.figma.scopes": [
+          "FONT_STYLE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-weight-400)"
+        }
+      }
+    },
+    "700": {
+      "$type": "number",
+      "$value": 700,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31929",
+        "com.figma.scopes": [
+          "FONT_STYLE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-weight-700)"
+        }
+      }
+    }
+  },
+  "FontSize": {
+    "14": {
+      "$type": "number",
+      "$value": 14,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31930",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-14)"
+        }
+      }
+    },
+    "16": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31931",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-16)"
+        }
+      }
+    },
+    "17": {
+      "$type": "number",
+      "$value": 17,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31932",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-17)"
+        }
+      }
+    },
+    "18": {
+      "$type": "number",
+      "$value": 18,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31933",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-18)"
+        }
+      }
+    },
+    "20": {
+      "$type": "number",
+      "$value": 20,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31934",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-20)"
+        }
+      }
+    },
+    "22": {
+      "$type": "number",
+      "$value": 22,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31935",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-22)"
+        }
+      }
+    },
+    "24": {
+      "$type": "number",
+      "$value": 24,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31936",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-24)"
+        }
+      }
+    },
+    "26": {
+      "$type": "number",
+      "$value": 26,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31937",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-26)"
+        }
+      }
+    },
+    "28": {
+      "$type": "number",
+      "$value": 28,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31938",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-28)"
+        }
+      }
+    },
+    "32": {
+      "$type": "number",
+      "$value": 32,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31939",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-32)"
+        }
+      }
+    },
+    "36": {
+      "$type": "number",
+      "$value": 36,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31940",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-36)"
+        }
+      }
+    },
+    "45": {
+      "$type": "number",
+      "$value": 45,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31941",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-45)"
+        }
+      }
+    },
+    "48": {
+      "$type": "number",
+      "$value": 48,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31942",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-48)"
+        }
+      }
+    },
+    "57": {
+      "$type": "number",
+      "$value": 57,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31943",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-57)"
+        }
+      }
+    },
+    "64": {
+      "$type": "number",
+      "$value": 64,
+      "$extensions": {
+        "com.figma.variableId": "VariableID:7608:31944",
+        "com.figma.scopes": [
+          "FONT_SIZE"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-size-64)"
+        }
+      }
+    }
+  },
+  "FontFamily": {
+    "Sans": {
+      "$type": "string",
+      "$value": "Noto Sans JP",
+      "$extensions": {
+        "com.figma.type": "string",
+        "com.figma.variableId": "VariableID:7787:135",
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-family-sans)"
+        }
+      }
+    },
+    "Mono": {
+      "$type": "string",
+      "$value": "Noto Sans Mono",
+      "$extensions": {
+        "com.figma.type": "string",
+        "com.figma.variableId": "VariableID:7787:136",
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "var(--font-family-mono)"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Typography"
+  }
+}

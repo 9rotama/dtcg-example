@@ -3,1235 +3,1547 @@
  * ------------------------------------------- */
 
 export const tokens = {
-  "Color.Color.Primitive.Blue.50": {
+  "Color.Neutral.White": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9098039215686274,
-        0.9450980392156862,
-        0.996078431372549
-      ],
-      "alpha": 1,
-      "hex": "#e8f1fe"
-    },
-  },
-  "Color.Color.Primitive.Blue.100": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.8509803921568627,
-        0.9019607843137255,
+        1,
+        1,
         1
       ],
       "alpha": 1,
-      "hex": "#d9e6ff"
+      "hex": "#FFFFFF"
     },
   },
-  "Color.Color.Primitive.Blue.200": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.7725490196078432,
-        0.8431372549019608,
-        0.984313725490196
-      ],
-      "alpha": 1,
-      "hex": "#c5d7fb"
-    },
-  },
-  "Color.Color.Primitive.Blue.300": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.615686274509804,
-        0.7176470588235294,
-        0.9764705882352941
-      ],
-      "alpha": 1,
-      "hex": "#9db7f9"
-    },
-  },
-  "Color.Color.Primitive.Blue.400": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.4392156862745098,
-        0.5882352941176471,
-        0.9725490196078431
-      ],
-      "alpha": 1,
-      "hex": "#7096f8"
-    },
-  },
-  "Color.Color.Primitive.Blue.500": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.28627450980392155,
-        0.4745098039215686,
-        0.9607843137254902
-      ],
-      "alpha": 1,
-      "hex": "#4979f5"
-    },
-  },
-  "Color.Color.Primitive.Blue.600": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.20392156862745098,
-        0.3764705882352941,
-        0.984313725490196
-      ],
-      "alpha": 1,
-      "hex": "#3460fb"
-    },
-  },
-  "Color.Color.Primitive.Blue.700": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.14901960784313725,
-        0.2901960784313726,
-        0.9568627450980393
-      ],
-      "alpha": 1,
-      "hex": "#264af4"
-    },
-  },
-  "Color.Color.Primitive.Blue.800": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0.19215686274509805,
-        0.8470588235294118
-      ],
-      "alpha": 1,
-      "hex": "#0031d8"
-    },
-  },
-  "Color.Color.Primitive.Blue.900": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0.09019607843137255,
-        0.7568627450980392
-      ],
-      "alpha": 1,
-      "hex": "#0017c1"
-    },
-  },
-  "Color.Color.Primitive.Blue.1000": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0.06666666666666667,
-        0.5607843137254902
-      ],
-      "alpha": 1,
-      "hex": "#00118f"
-    },
-  },
-  "Color.Color.Primitive.Blue.1100": {
+  "Color.Neutral.Black": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
         0,
-        0.44313725490196076
+        0
+      ],
+      "alpha": 1,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.SolidGray.50": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9490196108818054,
+        0.9490196108818054,
+        0.9490196108818054
+      ],
+      "alpha": 1,
+      "hex": "#F2F2F2"
+    },
+  },
+  "Color.Neutral.SolidGray.100": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9019607901573181,
+        0.9019607901573181,
+        0.9019607901573181
+      ],
+      "alpha": 1,
+      "hex": "#E6E6E6"
+    },
+  },
+  "Color.Neutral.SolidGray.200": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+      ],
+      "alpha": 1,
+      "hex": "#CCCCCC"
+    },
+  },
+  "Color.Neutral.SolidGray.300": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.7019608020782471,
+        0.7019608020782471,
+        0.7019608020782471
+      ],
+      "alpha": 1,
+      "hex": "#B3B3B3"
+    },
+  },
+  "Color.Neutral.SolidGray.400": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579
+      ],
+      "alpha": 1,
+      "hex": "#999999"
+    },
+  },
+  "Color.Neutral.SolidGray.420": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.5803921818733215,
+        0.5803921818733215,
+        0.5803921818733215
+      ],
+      "alpha": 1,
+      "hex": "#949494"
+    },
+  },
+  "Color.Neutral.SolidGray.500": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.49803921580314636,
+        0.49803921580314636,
+        0.49803921580314636
+      ],
+      "alpha": 1,
+      "hex": "#7F7F7F"
+    },
+  },
+  "Color.Neutral.SolidGray.536": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.4628731310367584,
+        0.4628731310367584,
+        0.4628731310367584
+      ],
+      "alpha": 1,
+      "hex": "#767676"
+    },
+  },
+  "Color.Neutral.SolidGray.600": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "alpha": 1,
+      "hex": "#666666"
+    },
+  },
+  "Color.Neutral.SolidGray.700": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.3019607961177826,
+        0.3019607961177826,
+        0.3019607961177826
+      ],
+      "alpha": 1,
+      "hex": "#4D4D4D"
+    },
+  },
+  "Color.Neutral.SolidGray.800": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "alpha": 1,
+      "hex": "#333333"
+    },
+  },
+  "Color.Neutral.SolidGray.900": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.10196078568696976,
+        0.10196078568696976,
+        0.10196078568696976
+      ],
+      "alpha": 1,
+      "hex": "#1A1A1A"
+    },
+  },
+  "Color.Neutral.OpacityGray.50": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.05000000074505806,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.100": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.10000000149011612,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.200": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.20000000298023224,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.300": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.30000001192092896,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.400": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.4000000059604645,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.420": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.41999998688697815,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.500": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.5,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.536": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.5400000214576721,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.600": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.6000000238418579,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.700": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.699999988079071,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.800": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.800000011920929,
+      "hex": "#000000"
+    },
+  },
+  "Color.Neutral.OpacityGray.900": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 0.8999999761581421,
+      "hex": "#000000"
+    },
+  },
+  "Color.Primitive.Blue.50": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9098039269447327,
+        0.9450980424880981,
+        0.9960784316062927
+      ],
+      "alpha": 1,
+      "hex": "#E8F1FE"
+    },
+  },
+  "Color.Primitive.Blue.100": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.8509804010391235,
+        0.9019607901573181,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#D9E6FF"
+    },
+  },
+  "Color.Primitive.Blue.200": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.772549033164978,
+        0.843137264251709,
+        0.9843137264251709
+      ],
+      "alpha": 1,
+      "hex": "#C5D7FB"
+    },
+  },
+  "Color.Primitive.Blue.300": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.615686297416687,
+        0.7176470756530762,
+        0.9764705896377563
+      ],
+      "alpha": 1,
+      "hex": "#9DB7F9"
+    },
+  },
+  "Color.Primitive.Blue.400": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.43921568989753723,
+        0.5882353186607361,
+        0.9725490212440491
+      ],
+      "alpha": 1,
+      "hex": "#7096F8"
+    },
+  },
+  "Color.Primitive.Blue.500": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.2862745225429535,
+        0.4745098054409027,
+        0.9607843160629272
+      ],
+      "alpha": 1,
+      "hex": "#4979F5"
+    },
+  },
+  "Color.Primitive.Blue.600": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.20392157137393951,
+        0.3764705955982208,
+        0.9843137264251709
+      ],
+      "alpha": 1,
+      "hex": "#3460FB"
+    },
+  },
+  "Color.Primitive.Blue.700": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.14901961386203766,
+        0.29019609093666077,
+        0.95686274766922
+      ],
+      "alpha": 1,
+      "hex": "#264AF4"
+    },
+  },
+  "Color.Primitive.Blue.800": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0.1921568661928177,
+        0.8470588326454163
+      ],
+      "alpha": 1,
+      "hex": "#0031D8"
+    },
+  },
+  "Color.Primitive.Blue.900": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0.09019608050584793,
+        0.7568627595901489
+      ],
+      "alpha": 1,
+      "hex": "#0017C1"
+    },
+  },
+  "Color.Primitive.Blue.1000": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0.06666667014360428,
+        0.5607843399047852
+      ],
+      "alpha": 1,
+      "hex": "#00118F"
+    },
+  },
+  "Color.Primitive.Blue.1100": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0.4431372582912445
       ],
       "alpha": 1,
       "hex": "#000071"
     },
   },
-  "Color.Color.Primitive.Blue.1200": {
+  "Color.Primitive.Blue.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
         0,
-        0.3764705882352941
+        0.3764705955982208
       ],
       "alpha": 1,
       "hex": "#000060"
     },
   },
-  "Color.Color.Primitive.LightBlue.50": {
+  "Color.Primitive.LightBlue.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9411764705882353,
-        0.9764705882352941,
+        0.9411764740943909,
+        0.9764705896377563,
         1
       ],
       "alpha": 1,
-      "hex": "#f0f9ff"
+      "hex": "#F0F9FF"
     },
   },
-  "Color.Color.Primitive.LightBlue.100": {
+  "Color.Primitive.LightBlue.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.8627450980392157,
-        0.9411764705882353,
+        0.8627451062202454,
+        0.9411764740943909,
         1
       ],
       "alpha": 1,
-      "hex": "#dcf0ff"
+      "hex": "#DCF0FF"
     },
   },
-  "Color.Color.Primitive.LightBlue.200": {
+  "Color.Primitive.LightBlue.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7529411764705882,
-        0.8941176470588236,
+        0.7529411911964417,
+        0.8941176533699036,
         1
       ],
       "alpha": 1,
-      "hex": "#c0e4ff"
+      "hex": "#C0E4FF"
     },
   },
-  "Color.Color.Primitive.LightBlue.300": {
+  "Color.Primitive.LightBlue.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.592156862745098,
-        0.8274509803921568,
+        0.5921568870544434,
+        0.8274509906768799,
         1
       ],
       "alpha": 1,
-      "hex": "#97d3ff"
+      "hex": "#97D3FF"
     },
   },
-  "Color.Color.Primitive.LightBlue.400": {
+  "Color.Primitive.LightBlue.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3411764705882353,
-        0.7215686274509804,
+        0.34117648005485535,
+        0.7215686440467834,
         1
       ],
       "alpha": 1,
-      "hex": "#57b8ff"
+      "hex": "#57B8FF"
     },
   },
-  "Color.Color.Primitive.LightBlue.500": {
+  "Color.Primitive.LightBlue.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.2235294117647059,
-        0.6705882352941176,
+        0.2235294133424759,
+        0.6705882549285889,
         1
       ],
       "alpha": 1,
-      "hex": "#39abff"
+      "hex": "#39ABFF"
     },
   },
-  "Color.Color.Primitive.LightBlue.600": {
+  "Color.Primitive.LightBlue.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.5450980392156862,
-        0.9490196078431372
+        0.545098066329956,
+        0.9490196108818054
       ],
       "alpha": 1,
-      "hex": "#008bf2"
+      "hex": "#008BF2"
     },
   },
-  "Color.Color.Primitive.LightBlue.700": {
+  "Color.Primitive.LightBlue.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.03137254901960784,
-        0.4666666666666667,
-        0.8431372549019608
+        0.0313725508749485,
+        0.46666666865348816,
+        0.843137264251709
       ],
       "alpha": 1,
-      "hex": "#0877d7"
+      "hex": "#0877D7"
     },
   },
-  "Color.Color.Primitive.LightBlue.800": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0.4,
-        0.7450980392156863
-      ],
-      "alpha": 1,
-      "hex": "#0066be"
-    },
-  },
-  "Color.Color.Primitive.LightBlue.900": {
+  "Color.Primitive.LightBlue.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.3333333333333333,
-        0.6784313725490196
+        0.4000000059604645,
+        0.7450980544090271
       ],
       "alpha": 1,
-      "hex": "#0055ad"
+      "hex": "#0066BE"
     },
   },
-  "Color.Color.Primitive.LightBlue.1000": {
+  "Color.Primitive.LightBlue.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.25882352941176473,
-        0.5490196078431373
+        0.3333333432674408,
+        0.6784313917160034
       ],
       "alpha": 1,
-      "hex": "#00428c"
+      "hex": "#0055AD"
     },
   },
-  "Color.Color.Primitive.LightBlue.1100": {
+  "Color.Primitive.LightBlue.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.19215686274509805,
-        0.41568627450980394
+        0.25882354378700256,
+        0.5490196347236633
       ],
       "alpha": 1,
-      "hex": "#00316a"
+      "hex": "#00428C"
     },
   },
-  "Color.Color.Primitive.LightBlue.1200": {
+  "Color.Primitive.LightBlue.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.13725490196078433,
-        0.29411764705882354
+        0.1921568661928177,
+        0.4156862795352936
       ],
       "alpha": 1,
-      "hex": "#00234b"
+      "hex": "#00316A"
     },
   },
-  "Color.Color.Primitive.Cyan.50": {
+  "Color.Primitive.LightBlue.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9137254901960784,
-        0.9686274509803922,
-        0.9764705882352941
+        0,
+        0.13725490868091583,
+        0.29411765933036804
       ],
       "alpha": 1,
-      "hex": "#e9f7f9"
+      "hex": "#00234B"
     },
   },
-  "Color.Color.Primitive.Cyan.100": {
+  "Color.Primitive.Cyan.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7843137254901961,
-        0.9725490196078431,
+        0.9137254953384399,
+        0.9686274528503418,
+        0.9764705896377563
+      ],
+      "alpha": 1,
+      "hex": "#E9F7F9"
+    },
+  },
+  "Color.Primitive.Cyan.100": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.7843137383460999,
+        0.9725490212440491,
         1
       ],
       "alpha": 1,
-      "hex": "#c8f8ff"
+      "hex": "#C8F8FF"
     },
   },
-  "Color.Color.Primitive.Cyan.200": {
+  "Color.Primitive.Cyan.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6,
-        0.9490196078431372,
+        0.6000000238418579,
+        0.9490196108818054,
         1
       ],
       "alpha": 1,
-      "hex": "#99f2ff"
+      "hex": "#99F2FF"
     },
   },
-  "Color.Color.Primitive.Cyan.300": {
+  "Color.Primitive.Cyan.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.4745098039215686,
-        0.8862745098039215,
-        0.9490196078431372
+        0.4745098054409027,
+        0.886274516582489,
+        0.9490196108818054
       ],
       "alpha": 1,
-      "hex": "#79e2f2"
+      "hex": "#79E2F2"
     },
   },
-  "Color.Color.Primitive.Cyan.400": {
+  "Color.Primitive.Cyan.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.16862745098039217,
-        0.7843137254901961,
-        0.8941176470588236
+        0.16862745583057404,
+        0.7843137383460999,
+        0.8941176533699036
       ],
       "alpha": 1,
-      "hex": "#2bc8e4"
+      "hex": "#2BC8E4"
     },
   },
-  "Color.Color.Primitive.Cyan.500": {
+  "Color.Primitive.Cyan.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.00392156862745098,
-        0.7176470588235294,
-        0.8392156862745098
+        0.003921568859368563,
+        0.7176470756530762,
+        0.8392156958580017
       ],
       "alpha": 1,
-      "hex": "#01b7d6"
+      "hex": "#01B7D6"
     },
   },
-  "Color.Color.Primitive.Cyan.600": {
+  "Color.Primitive.Cyan.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.6392156862745098,
-        0.7490196078431373
+        0.6392157077789307,
+        0.7490196228027344
       ],
       "alpha": 1,
-      "hex": "#00a3bf"
+      "hex": "#00A3BF"
     },
   },
-  "Color.Color.Primitive.Cyan.700": {
+  "Color.Primitive.Cyan.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.5529411764705883,
-        0.6509803921568628
+        0.5529412031173706,
+        0.6509804129600525
       ],
       "alpha": 1,
-      "hex": "#008da6"
+      "hex": "#008DA6"
     },
   },
-  "Color.Color.Primitive.Cyan.800": {
+  "Color.Primitive.Cyan.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.5098039215686274,
-        0.6
+        0.5098039507865906,
+        0.6000000238418579
       ],
       "alpha": 1,
       "hex": "#008299"
     },
   },
-  "Color.Color.Primitive.Cyan.900": {
+  "Color.Primitive.Cyan.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.43529411764705883,
-        0.5137254901960784
+        0.43529412150382996,
+        0.5137255191802979
       ],
       "alpha": 1,
-      "hex": "#006f83"
+      "hex": "#006F83"
     },
   },
-  "Color.Color.Primitive.Cyan.1000": {
+  "Color.Primitive.Cyan.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.3803921568627451,
-        0.45098039215686275
+        0.3803921639919281,
+        0.45098039507865906
       ],
       "alpha": 1,
       "hex": "#006173"
     },
   },
-  "Color.Color.Primitive.Cyan.1100": {
+  "Color.Primitive.Cyan.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.2980392156862745,
-        0.34901960784313724
+        0.2980392277240753,
+        0.3490196168422699
       ],
       "alpha": 1,
-      "hex": "#004c59"
+      "hex": "#004C59"
     },
   },
-  "Color.Color.Primitive.Cyan.1200": {
+  "Color.Primitive.Cyan.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         0,
-        0.21568627450980393,
-        0.2549019607843137
+        0.21568627655506134,
+        0.2549019753932953
       ],
       "alpha": 1,
       "hex": "#003741"
     },
   },
-  "Color.Color.Primitive.Green.50": {
+  "Color.Primitive.Green.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9019607843137255,
-        0.9607843137254902,
-        0.9254901960784314
+        0.9019607901573181,
+        0.9607843160629272,
+        0.9254902005195618
       ],
       "alpha": 1,
-      "hex": "#e6f5ec"
+      "hex": "#E6F5EC"
     },
   },
-  "Color.Color.Primitive.Green.100": {
+  "Color.Primitive.Green.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7607843137254902,
-        0.8980392156862745,
-        0.8196078431372549
+        0.7607843279838562,
+        0.8980392217636108,
+        0.8196078538894653
       ],
       "alpha": 1,
-      "hex": "#c2e5d1"
+      "hex": "#C2E5D1"
     },
   },
-  "Color.Color.Primitive.Green.200": {
+  "Color.Primitive.Green.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6078431372549019,
-        0.8313725490196079,
-        0.7098039215686275
+        0.6078431606292725,
+        0.8313725590705872,
+        0.7098039388656616
       ],
       "alpha": 1,
-      "hex": "#9bd4b5"
+      "hex": "#9BD4B5"
     },
   },
-  "Color.Color.Primitive.Green.300": {
+  "Color.Primitive.Green.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.44313725490196076,
-        0.7725490196078432,
-        0.596078431372549
+        0.4431372582912445,
+        0.772549033164978,
+        0.5960784554481506
       ],
       "alpha": 1,
-      "hex": "#71c598"
+      "hex": "#71C598"
     },
   },
-  "Color.Color.Primitive.Green.400": {
+  "Color.Primitive.Green.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3176470588235294,
-        0.7215686274509804,
-        0.5137254901960784
+        0.3176470696926117,
+        0.7215686440467834,
+        0.5137255191802979
       ],
       "alpha": 1,
-      "hex": "#51b883"
+      "hex": "#51B883"
     },
   },
-  "Color.Color.Primitive.Green.500": {
+  "Color.Primitive.Green.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.17254901960784313,
-        0.6745098039215687,
-        0.43137254901960786
+        0.1725490242242813,
+        0.6745098233222961,
+        0.4313725531101227
       ],
       "alpha": 1,
-      "hex": "#2cac6e"
+      "hex": "#2CAC6E"
     },
   },
-  "Color.Color.Primitive.Green.600": {
+  "Color.Primitive.Green.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.1450980392156863,
-        0.615686274509804,
-        0.38823529411764707
+        0.14509804546833038,
+        0.615686297416687,
+        0.38823530077934265
       ],
       "alpha": 1,
-      "hex": "#259d63"
+      "hex": "#259D63"
     },
   },
-  "Color.Color.Primitive.Green.700": {
+  "Color.Primitive.Green.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.11372549019607843,
-        0.5450980392156862,
-        0.33725490196078434
+        0.11372549086809158,
+        0.545098066329956,
+        0.33725491166114807
       ],
       "alpha": 1,
-      "hex": "#1d8b56"
+      "hex": "#1D8B56"
     },
   },
-  "Color.Color.Primitive.Green.800": {
+  "Color.Primitive.Green.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.09803921568627451,
-        0.47843137254901963,
-        0.29411764705882354
+        0.09803921729326248,
+        0.47843137383461,
+        0.29411765933036804
       ],
       "alpha": 1,
-      "hex": "#197a4b"
+      "hex": "#197A4B"
     },
   },
-  "Color.Color.Primitive.Green.900": {
+  "Color.Primitive.Green.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.06666666666666667,
-        0.35294117647058826,
-        0.21176470588235294
+        0.06666667014360428,
+        0.3529411852359772,
+        0.21176470816135406
       ],
       "alpha": 1,
-      "hex": "#115a36"
+      "hex": "#115A36"
     },
   },
-  "Color.Color.Primitive.Green.1000": {
+  "Color.Primitive.Green.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.047058823529411764,
-        0.2784313725490196,
-        0.16470588235294117
+        0.0470588244497776,
+        0.27843138575553894,
+        0.16470588743686676
       ],
       "alpha": 1,
-      "hex": "#0c472a"
+      "hex": "#0C472A"
     },
   },
-  "Color.Color.Primitive.Green.1100": {
+  "Color.Primitive.Green.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.03137254901960784,
-        0.20784313725490197,
-        0.12156862745098039
+        0.0313725508749485,
+        0.2078431397676468,
+        0.12156862765550613
       ],
       "alpha": 1,
-      "hex": "#08351f"
+      "hex": "#08351F"
     },
   },
-  "Color.Color.Primitive.Green.1200": {
+  "Color.Primitive.Green.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.011764705882352941,
-        0.13333333333333333,
-        0.07450980392156863
+        0.0117647061124444,
+        0.13333334028720856,
+        0.07450980693101883
       ],
       "alpha": 1,
       "hex": "#032213"
     },
   },
-  "Color.Color.Primitive.Lime.50": {
+  "Color.Primitive.Lime.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9215686274509803,
-        0.9803921568627451,
-        0.8509803921568627
+        0.9215686321258545,
+        0.9803921580314636,
+        0.8509804010391235
       ],
       "alpha": 1,
-      "hex": "#ebfad9"
+      "hex": "#EBFAD9"
     },
   },
-  "Color.Color.Primitive.Lime.100": {
+  "Color.Primitive.Lime.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.8156862745098039,
-        0.9607843137254902,
-        0.6352941176470588
+        0.8156862854957581,
+        0.9607843160629272,
+        0.6352941393852234
       ],
       "alpha": 1,
-      "hex": "#d0f5a2"
+      "hex": "#D0F5A2"
     },
   },
-  "Color.Color.Primitive.Lime.200": {
+  "Color.Primitive.Lime.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7529411764705882,
-        0.9529411764705882,
-        0.32941176470588235
+        0.7529411911964417,
+        0.9529411792755127,
+        0.3294117748737335
       ],
       "alpha": 1,
-      "hex": "#c0f354"
+      "hex": "#C0F354"
     },
   },
-  "Color.Color.Primitive.Lime.300": {
+  "Color.Primitive.Lime.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6784313725490196,
-        0.9098039215686274,
-        0.18823529411764706
+        0.6784313917160034,
+        0.9098039269447327,
+        0.1882352977991104
       ],
       "alpha": 1,
-      "hex": "#ade830"
+      "hex": "#ADE830"
     },
   },
-  "Color.Color.Primitive.Lime.400": {
+  "Color.Primitive.Lime.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.615686274509804,
-        0.8666666666666667,
-        0.08235294117647059
+        0.615686297416687,
+        0.8666666746139526,
+        0.08235294371843338
       ],
       "alpha": 1,
-      "hex": "#9ddd15"
+      "hex": "#9DDD15"
     },
   },
-  "Color.Color.Primitive.Lime.500": {
+  "Color.Primitive.Lime.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5490196078431373,
-        0.7843137254901961,
-        0.047058823529411764
+        0.5490196347236633,
+        0.7843137383460999,
+        0.0470588244497776
       ],
       "alpha": 1,
-      "hex": "#8cc80c"
+      "hex": "#8CC80C"
     },
   },
-  "Color.Color.Primitive.Lime.600": {
+  "Color.Primitive.Lime.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.49411764705882355,
-        0.7058823529411765,
-        0.050980392156862744
+        0.4941176474094391,
+        0.7058823704719543,
+        0.05098039284348488
       ],
       "alpha": 1,
-      "hex": "#7eb40d"
+      "hex": "#7EB40D"
     },
   },
-  "Color.Color.Primitive.Lime.700": {
+  "Color.Primitive.Lime.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.43529411764705883,
-        0.6313725490196078,
-        0.01568627450980392
+        0.43529412150382996,
+        0.6313725709915161,
+        0.01568627543747425
       ],
       "alpha": 1,
-      "hex": "#6fa104"
+      "hex": "#6FA104"
     },
   },
-  "Color.Color.Primitive.Lime.800": {
+  "Color.Primitive.Lime.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3803921568627451,
-        0.5568627450980392,
+        0.3803921639919281,
+        0.5568627715110779,
         0
       ],
       "alpha": 1,
-      "hex": "#618e00"
+      "hex": "#618E00"
     },
   },
-  "Color.Color.Primitive.Lime.900": {
+  "Color.Primitive.Lime.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3137254901960784,
-        0.4588235294117647,
+        0.3137255012989044,
+        0.4588235318660736,
         0
       ],
       "alpha": 1,
       "hex": "#507500"
     },
   },
-  "Color.Color.Primitive.Lime.1000": {
+  "Color.Primitive.Lime.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.24313725490196078,
-        0.35294117647058826,
+        0.24313725531101227,
+        0.3529411852359772,
         0
       ],
       "alpha": 1,
-      "hex": "#3e5a00"
+      "hex": "#3E5A00"
     },
   },
-  "Color.Color.Primitive.Lime.1100": {
+  "Color.Primitive.Lime.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.17254901960784313,
-        0.2549019607843137,
+        0.1725490242242813,
+        0.2549019753932953,
         0
       ],
       "alpha": 1,
-      "hex": "#2c4100"
+      "hex": "#2C4100"
     },
   },
-  "Color.Color.Primitive.Lime.1200": {
+  "Color.Primitive.Lime.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.11764705882352941,
-        0.17647058823529413,
+        0.11764705926179886,
+        0.1764705926179886,
         0
       ],
       "alpha": 1,
-      "hex": "#1e2d00"
+      "hex": "#1E2D00"
     },
   },
-  "Color.Color.Primitive.Yellow.50": {
+  "Color.Primitive.Yellow.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.984313725490196,
-        0.9607843137254902,
-        0.8784313725490196
+        0.9843137264251709,
+        0.9607843160629272,
+        0.8784313797950745
       ],
       "alpha": 1,
-      "hex": "#fbf5e0"
+      "hex": "#FBF5E0"
     },
   },
-  "Color.Color.Primitive.Yellow.100": {
+  "Color.Primitive.Yellow.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.9411764705882353,
-        0.7019607843137254
+        0.9411764740943909,
+        0.7019608020782471
       ],
       "alpha": 1,
-      "hex": "#fff0b3"
+      "hex": "#FFF0B3"
     },
   },
-  "Color.Color.Primitive.Yellow.200": {
+  "Color.Primitive.Yellow.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.8901960784313725,
-        0.5019607843137255
+        0.8901960849761963,
+        0.501960813999176
       ],
       "alpha": 1,
-      "hex": "#ffe380"
+      "hex": "#FFE380"
     },
   },
-  "Color.Color.Primitive.Yellow.300": {
+  "Color.Primitive.Yellow.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.8313725490196079,
-        0.23921568627450981
+        0.8313725590705872,
+        0.239215686917305
       ],
       "alpha": 1,
-      "hex": "#ffd43d"
+      "hex": "#FFD43D"
     },
   },
-  "Color.Color.Primitive.Yellow.400": {
+  "Color.Primitive.Yellow.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.7803921568627451,
+        0.7803921699523926,
         0
       ],
       "alpha": 1,
-      "hex": "#ffc700"
+      "hex": "#FFC700"
     },
   },
-  "Color.Color.Primitive.Yellow.500": {
+  "Color.Primitive.Yellow.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9215686274509803,
-        0.7176470588235294,
+        0.9215686321258545,
+        0.7176470756530762,
         0
       ],
       "alpha": 1,
-      "hex": "#ebb700"
+      "hex": "#EBB700"
     },
   },
-  "Color.Color.Primitive.Yellow.600": {
+  "Color.Primitive.Yellow.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.8235294117647058,
-        0.6431372549019608,
+        0.8235294222831726,
+        0.6431372761726379,
         0
       ],
       "alpha": 1,
-      "hex": "#d2a400"
+      "hex": "#D2A400"
     },
   },
-  "Color.Color.Primitive.Yellow.700": {
+  "Color.Primitive.Yellow.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7176470588235294,
-        0.5607843137254902,
+        0.7176470756530762,
+        0.5607843399047852,
         0
       ],
       "alpha": 1,
-      "hex": "#b78f00"
+      "hex": "#B78F00"
     },
   },
-  "Color.Color.Primitive.Yellow.800": {
+  "Color.Primitive.Yellow.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6470588235294118,
-        0.5019607843137255,
+        0.6470588445663452,
+        0.501960813999176,
         0
       ],
       "alpha": 1,
-      "hex": "#a58000"
+      "hex": "#A58000"
     },
   },
-  "Color.Color.Primitive.Yellow.900": {
+  "Color.Primitive.Yellow.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5725490196078431,
-        0.4470588235294118,
+        0.572549045085907,
+        0.4470588266849518,
         0
       ],
       "alpha": 1,
       "hex": "#927200"
     },
   },
-  "Color.Color.Primitive.Yellow.1000": {
+  "Color.Primitive.Yellow.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5019607843137255,
-        0.38823529411764707,
+        0.501960813999176,
+        0.38823530077934265,
         0
       ],
       "alpha": 1,
       "hex": "#806300"
     },
   },
-  "Color.Color.Primitive.Yellow.1100": {
+  "Color.Primitive.Yellow.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.43137254901960786,
-        0.33725490196078434,
+        0.4313725531101227,
+        0.33725491166114807,
         0
       ],
       "alpha": 1,
-      "hex": "#6e5600"
+      "hex": "#6E5600"
     },
   },
-  "Color.Color.Primitive.Yellow.1200": {
+  "Color.Primitive.Yellow.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3764705882352941,
-        0.29411764705882354,
+        0.3764705955982208,
+        0.29411765933036804,
         0
       ],
       "alpha": 1,
-      "hex": "#604b00"
+      "hex": "#604B00"
     },
   },
-  "Color.Color.Primitive.Orange.50": {
+  "Color.Primitive.Orange.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.9333333333333333,
-        0.8862745098039215
+        0.9333333373069763,
+        0.886274516582489
       ],
       "alpha": 1,
-      "hex": "#ffeee2"
+      "hex": "#FFEEE2"
     },
   },
-  "Color.Color.Primitive.Orange.100": {
+  "Color.Primitive.Orange.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.8745098039215686,
-        0.792156862745098
+        0.8745098114013672,
+        0.7921568751335144
       ],
       "alpha": 1,
-      "hex": "#ffdfca"
+      "hex": "#FFDFCA"
     },
   },
-  "Color.Color.Primitive.Orange.200": {
+  "Color.Primitive.Orange.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.7568627450980392,
-        0.6
+        0.7568627595901489,
+        0.6000000238418579
       ],
       "alpha": 1,
-      "hex": "#ffc199"
+      "hex": "#FFC199"
     },
   },
-  "Color.Color.Primitive.Orange.300": {
+  "Color.Primitive.Orange.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.6509803921568628,
-        0.42745098039215684
+        0.6509804129600525,
+        0.4274509847164154
       ],
       "alpha": 1,
-      "hex": "#ffa66d"
+      "hex": "#FFA66D"
     },
   },
-  "Color.Color.Primitive.Orange.400": {
+  "Color.Primitive.Orange.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.5529411764705883,
-        0.26666666666666666
+        0.5529412031173706,
+        0.2666666805744171
       ],
       "alpha": 1,
-      "hex": "#ff8d44"
+      "hex": "#FF8D44"
     },
   },
-  "Color.Color.Primitive.Orange.500": {
+  "Color.Primitive.Orange.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.4627450980392157,
-        0.1568627450980392
+        0.4627451002597809,
+        0.1568627506494522
       ],
       "alpha": 1,
-      "hex": "#ff7628"
+      "hex": "#FF7628"
     },
   },
-  "Color.Color.Primitive.Orange.600": {
+  "Color.Primitive.Orange.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.984313725490196,
-        0.3568627450980392,
-        0.00392156862745098
+        0.9843137264251709,
+        0.35686275362968445,
+        0.003921568859368563
       ],
       "alpha": 1,
-      "hex": "#fb5b01"
+      "hex": "#FB5B01"
     },
   },
-  "Color.Color.Primitive.Orange.700": {
+  "Color.Primitive.Orange.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.8862745098039215,
-        0.3176470588235294,
+        0.886274516582489,
+        0.3176470696926117,
         0
       ],
       "alpha": 1,
-      "hex": "#e25100"
+      "hex": "#E25100"
     },
   },
-  "Color.Color.Primitive.Orange.800": {
+  "Color.Primitive.Orange.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7803921568627451,
-        0.2784313725490196,
+        0.7803921699523926,
+        0.27843138575553894,
         0
       ],
       "alpha": 1,
-      "hex": "#c74700"
+      "hex": "#C74700"
     },
   },
-  "Color.Color.Primitive.Orange.900": {
+  "Color.Primitive.Orange.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6745098039215687,
-        0.24313725490196078,
+        0.6745098233222961,
+        0.24313725531101227,
         0
       ],
       "alpha": 1,
-      "hex": "#ac3e00"
+      "hex": "#AC3E00"
     },
   },
-  "Color.Color.Primitive.Orange.1000": {
+  "Color.Primitive.Orange.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5450980392156862,
-        0.19607843137254902,
+        0.545098066329956,
+        0.19607843458652496,
         0
       ],
       "alpha": 1,
-      "hex": "#8b3200"
+      "hex": "#8B3200"
     },
   },
-  "Color.Color.Primitive.Orange.1100": {
+  "Color.Primitive.Orange.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.42745098039215684,
-        0.15294117647058825,
+        0.4274509847164154,
+        0.15294118225574493,
         0
       ],
       "alpha": 1,
-      "hex": "#6d2700"
+      "hex": "#6D2700"
     },
   },
-  "Color.Color.Primitive.Orange.1200": {
+  "Color.Primitive.Orange.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.32941176470588235,
-        0.11764705882352941,
+        0.3294117748737335,
+        0.11764705926179886,
         0
       ],
       "alpha": 1,
-      "hex": "#541e00"
+      "hex": "#541E00"
     },
   },
-  "Color.Color.Primitive.Red.50": {
+  "Color.Primitive.Red.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9921568627450981,
-        0.9333333333333333,
-        0.9333333333333333
+        0.9921568632125854,
+        0.9333333373069763,
+        0.9333333373069763
       ],
       "alpha": 1,
-      "hex": "#fdeeee"
+      "hex": "#FDEEEE"
     },
   },
-  "Color.Color.Primitive.Red.100": {
+  "Color.Primitive.Red.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.8549019607843137,
-        0.8549019607843137
+        0.8549019694328308,
+        0.8549019694328308
       ],
       "alpha": 1,
-      "hex": "#ffdada"
+      "hex": "#FFDADA"
     },
   },
-  "Color.Color.Primitive.Red.200": {
+  "Color.Primitive.Red.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.7333333333333333,
-        0.7333333333333333
+        0.7333333492279053,
+        0.7333333492279053
       ],
       "alpha": 1,
-      "hex": "#ffbbbb"
+      "hex": "#FFBBBB"
     },
   },
-  "Color.Color.Primitive.Red.300": {
+  "Color.Primitive.Red.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.5882352941176471,
-        0.5882352941176471
+        0.5882353186607361,
+        0.5882353186607361
       ],
       "alpha": 1,
-      "hex": "#ff9696"
+      "hex": "#FF9696"
     },
   },
-  "Color.Color.Primitive.Red.400": {
+  "Color.Primitive.Red.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.44313725490196076,
-        0.44313725490196076
+        0.4431372582912445,
+        0.4431372582912445
       ],
       "alpha": 1,
-      "hex": "#ff7171"
+      "hex": "#FF7171"
     },
   },
-  "Color.Color.Primitive.Red.500": {
+  "Color.Primitive.Red.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.32941176470588235,
-        0.32941176470588235
+        0.3294117748737335,
+        0.3294117748737335
       ],
       "alpha": 1,
-      "hex": "#ff5454"
+      "hex": "#FF5454"
     },
   },
-  "Color.Color.Primitive.Red.600": {
+  "Color.Primitive.Red.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.996078431372549,
-        0.2235294117647059,
-        0.2235294117647059
+        0.9960784316062927,
+        0.2235294133424759,
+        0.2235294133424759
       ],
       "alpha": 1,
-      "hex": "#fe3939"
+      "hex": "#FE3939"
     },
   },
-  "Color.Color.Primitive.Red.700": {
+  "Color.Primitive.Red.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9803921568627451,
+        0.9803921580314636,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "#fa0000"
+      "hex": "#FA0000"
     },
   },
-  "Color.Color.Primitive.Red.800": {
+  "Color.Primitive.Red.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9254901960784314,
+        0.925000011920929,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "#ec0000"
+      "hex": "#EC0000"
     },
   },
-  "Color.Color.Primitive.Red.900": {
+  "Color.Primitive.Red.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.807843137254902,
+        0.8078431487083435,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "#ce0000"
+      "hex": "#CE0000"
     },
   },
-  "Color.Color.Primitive.Red.1000": {
+  "Color.Primitive.Red.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6627450980392157,
+        0.6627451181411743,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "#a90000"
+      "hex": "#A90000"
     },
   },
-  "Color.Color.Primitive.Red.1100": {
+  "Color.Primitive.Red.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5215686274509804,
+        0.5215686559677124,
         0,
         0
       ],
@@ -1239,11 +1551,11 @@ export const tokens = {
       "hex": "#850000"
     },
   },
-  "Color.Color.Primitive.Red.1200": {
+  "Color.Primitive.Red.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3843137254901961,
+        0.3843137323856354,
         0,
         0
       ],
@@ -1251,1371 +1563,494 @@ export const tokens = {
       "hex": "#620000"
     },
   },
-  "Color.Color.Primitive.Magenta.50": {
+  "Color.Primitive.Magenta.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9529411764705882,
-        0.8980392156862745,
-        0.9568627450980393
+        0.9529411792755127,
+        0.8980392217636108,
+        0.95686274766922
       ],
       "alpha": 1,
-      "hex": "#f3e5f4"
+      "hex": "#F3E5F4"
     },
   },
-  "Color.Color.Primitive.Magenta.100": {
+  "Color.Primitive.Magenta.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.8156862745098039,
+        0.8156862854957581,
         1
       ],
       "alpha": 1,
-      "hex": "#ffd0ff"
+      "hex": "#FFD0FF"
     },
   },
-  "Color.Color.Primitive.Magenta.200": {
+  "Color.Primitive.Magenta.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.6823529411764706,
+        0.6823529601097107,
         1
       ],
       "alpha": 1,
-      "hex": "#ffaeff"
+      "hex": "#FFAEFF"
     },
   },
-  "Color.Color.Primitive.Magenta.300": {
+  "Color.Primitive.Magenta.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
         1,
-        0.5568627450980392,
+        0.5568627715110779,
         1
       ],
       "alpha": 1,
-      "hex": "#ff8eff"
+      "hex": "#FF8EFF"
     },
   },
-  "Color.Color.Primitive.Magenta.400": {
+  "Color.Primitive.Magenta.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9647058823529412,
-        0.3803921568627451,
-        0.9647058823529412
+        0.9647058844566345,
+        0.3803921639919281,
+        0.9647058844566345
       ],
       "alpha": 1,
-      "hex": "#f661f6"
+      "hex": "#F661F6"
     },
   },
-  "Color.Color.Primitive.Magenta.500": {
+  "Color.Primitive.Magenta.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9450980392156862,
-        0.21568627450980393,
-        0.9450980392156862
+        0.9450980424880981,
+        0.21568627655506134,
+        0.9450980424880981
       ],
       "alpha": 1,
-      "hex": "#f137f1"
+      "hex": "#F137F1"
     },
   },
-  "Color.Color.Primitive.Magenta.600": {
+  "Color.Primitive.Magenta.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.8588235294117647,
+        0.8588235378265381,
         0,
-        0.8588235294117647
+        0.8588235378265381
       ],
       "alpha": 1,
-      "hex": "#db00db"
+      "hex": "#DB00DB"
     },
   },
-  "Color.Color.Primitive.Magenta.700": {
+  "Color.Primitive.Magenta.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7529411764705882,
+        0.7529411911964417,
         0,
-        0.7529411764705882
+        0.7529411911964417
       ],
       "alpha": 1,
-      "hex": "#c000c0"
+      "hex": "#C000C0"
     },
   },
-  "Color.Color.Primitive.Magenta.800": {
+  "Color.Primitive.Magenta.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6666666666666666,
+        0.6666666865348816,
         0,
-        0.6666666666666666
+        0.6666666865348816
       ],
       "alpha": 1,
-      "hex": "#aa00aa"
+      "hex": "#AA00AA"
     },
   },
-  "Color.Color.Primitive.Magenta.900": {
+  "Color.Primitive.Magenta.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5450980392156862,
+        0.545098066329956,
         0,
-        0.5450980392156862
+        0.545098066329956
       ],
       "alpha": 1,
-      "hex": "#8b008b"
+      "hex": "#8B008B"
     },
   },
-  "Color.Color.Primitive.Magenta.1000": {
+  "Color.Primitive.Magenta.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.4235294117647059,
+        0.42352941632270813,
         0,
-        0.4235294117647059
+        0.42352941632270813
       ],
       "alpha": 1,
-      "hex": "#6c006c"
+      "hex": "#6C006C"
     },
   },
-  "Color.Color.Primitive.Magenta.1100": {
+  "Color.Primitive.Magenta.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3137254901960784,
+        0.3137255012989044,
         0,
-        0.3137254901960784
+        0.3137255012989044
       ],
       "alpha": 1,
       "hex": "#500050"
     },
   },
-  "Color.Color.Primitive.Magenta.1200": {
+  "Color.Primitive.Magenta.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.23137254901960785,
+        0.23137255012989044,
         0,
-        0.23137254901960785
+        0.23137255012989044
       ],
       "alpha": 1,
-      "hex": "#3b003b"
+      "hex": "#3B003B"
     },
   },
-  "Color.Color.Primitive.Purple.50": {
+  "Color.Primitive.Purple.50": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9450980392156862,
-        0.9176470588235294,
-        0.9803921568627451
+        0.9450980424880981,
+        0.9176470637321472,
+        0.9803921580314636
       ],
       "alpha": 1,
-      "hex": "#f1eafa"
+      "hex": "#F1EAFA"
     },
   },
-  "Color.Color.Primitive.Purple.100": {
+  "Color.Primitive.Purple.100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9254901960784314,
-        0.8666666666666667,
+        0.9254902005195618,
+        0.8666666746139526,
         1
       ],
       "alpha": 1,
-      "hex": "#ecddff"
+      "hex": "#ECDDFF"
     },
   },
-  "Color.Color.Primitive.Purple.200": {
+  "Color.Primitive.Purple.200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.8666666666666667,
-        0.7607843137254902,
+        0.8666666746139526,
+        0.7607843279838562,
         1
       ],
       "alpha": 1,
-      "hex": "#ddc2ff"
+      "hex": "#DDC2FF"
     },
   },
-  "Color.Color.Primitive.Purple.300": {
+  "Color.Primitive.Purple.300": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.803921568627451,
-        0.6509803921568628,
+        0.8039215803146362,
+        0.6509804129600525,
         1
       ],
       "alpha": 1,
-      "hex": "#cda6ff"
+      "hex": "#CDA6FF"
     },
   },
-  "Color.Color.Primitive.Purple.400": {
+  "Color.Primitive.Purple.400": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7333333333333333,
-        0.5294117647058824,
+        0.7333333492279053,
+        0.529411792755127,
         1
       ],
       "alpha": 1,
-      "hex": "#bb87ff"
+      "hex": "#BB87FF"
     },
   },
-  "Color.Color.Primitive.Purple.500": {
+  "Color.Primitive.Purple.500": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.6470588235294118,
-        0.396078431372549,
-        0.9725490196078431
+        0.6470588445663452,
+        0.3960784375667572,
+        0.9725490212440491
       ],
       "alpha": 1,
-      "hex": "#a565f8"
+      "hex": "#A565F8"
     },
   },
-  "Color.Color.Primitive.Purple.600": {
+  "Color.Primitive.Purple.600": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.5333333333333333,
-        0.2627450980392157,
-        0.8823529411764706
+        0.5333333611488342,
+        0.26274511218070984,
+        0.8823529481887817
       ],
       "alpha": 1,
-      "hex": "#8843e1"
+      "hex": "#8843E1"
     },
   },
-  "Color.Color.Primitive.Purple.700": {
+  "Color.Primitive.Purple.700": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.43529411764705883,
-        0.13725490196078433,
-        0.8156862745098039
+        0.43529412150382996,
+        0.13725490868091583,
+        0.8156862854957581
       ],
       "alpha": 1,
-      "hex": "#6f23d0"
+      "hex": "#6F23D0"
     },
   },
-  "Color.Color.Primitive.Purple.800": {
+  "Color.Primitive.Purple.800": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3607843137254902,
-        0.06274509803921569,
-        0.7450980392156863
+        0.3607843220233917,
+        0.062745101749897,
+        0.7450980544090271
       ],
       "alpha": 1,
-      "hex": "#5c10be"
+      "hex": "#5C10BE"
     },
   },
-  "Color.Color.Primitive.Purple.900": {
+  "Color.Primitive.Purple.900": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.3176470588235294,
-        0.03529411764705882,
-        0.6784313725490196
+        0.3176470696926117,
+        0.03529411926865578,
+        0.6784313917160034
       ],
       "alpha": 1,
-      "hex": "#5109ad"
+      "hex": "#5109AD"
     },
   },
-  "Color.Color.Primitive.Purple.1000": {
+  "Color.Primitive.Purple.1000": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.2549019607843137,
-        0.01568627450980392,
-        0.5568627450980392
+        0.2549019753932953,
+        0.01568627543747425,
+        0.5568627715110779
       ],
       "alpha": 1,
-      "hex": "#41048e"
+      "hex": "#41048E"
     },
   },
-  "Color.Color.Primitive.Purple.1100": {
+  "Color.Primitive.Purple.1100": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.18823529411764706,
-        0.00392156862745098,
-        0.4235294117647059
+        0.1882352977991104,
+        0.003921568859368563,
+        0.42352941632270813
       ],
       "alpha": 1,
-      "hex": "#30016c"
+      "hex": "#30016C"
     },
   },
-  "Color.Color.Primitive.Purple.1200": {
+  "Color.Primitive.Purple.1200": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.12941176470588237,
+        0.12941177189350128,
         0,
-        0.29411764705882354
+        0.29411765933036804
       ],
       "alpha": 1,
-      "hex": "#21004b"
+      "hex": "#21004B"
     },
   },
-  "Color.Color.Neutral.White": {
+  "Color.Semantic.Success.1": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        1,
-        1,
-        1
+        0.14509804546833038,
+        0.615686297416687,
+        0.38823530077934265
       ],
       "alpha": 1,
-      "hex": "#ffffff"
+      "hex": "#259D63"
     },
   },
-  "Color.Color.Neutral.Black": {
+  "Color.Semantic.Success.2": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0,
+        0.09803921729326248,
+        0.47843137383461,
+        0.29411765933036804
+      ],
+      "alpha": 1,
+      "hex": "#197A4B"
+    },
+  },
+  "Color.Semantic.Error.1": {
+    ".": {
+      "colorSpace": "srgb",
+      "components": [
+        0.925000011920929,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "#000000"
+      "hex": "#EC0000"
     },
   },
-  "Color.Color.Neutral.SolidGray.50": {
+  "Color.Semantic.Error.2": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.9490196078431372,
-        0.9490196078431372,
-        0.9490196078431372
-      ],
-      "alpha": 1,
-      "hex": "#f2f2f2"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.100": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.9019607843137255,
-        0.9019607843137255,
-        0.9019607843137255
-      ],
-      "alpha": 1,
-      "hex": "#e6e6e6"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.200": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.8,
-        0.8,
-        0.8
-      ],
-      "alpha": 1,
-      "hex": "#cccccc"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.300": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.7019607843137254,
-        0.7019607843137254,
-        0.7019607843137254
-      ],
-      "alpha": 1,
-      "hex": "#b3b3b3"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.400": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.6,
-        0.6,
-        0.6
-      ],
-      "alpha": 1,
-      "hex": "#999999"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.420": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.5803921568627451,
-        0.5803921568627451,
-        0.5803921568627451
-      ],
-      "alpha": 1,
-      "hex": "#949494"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.500": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.4980392156862745,
-        0.4980392156862745,
-        0.4980392156862745
-      ],
-      "alpha": 1,
-      "hex": "#7f7f7f"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.536": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.4627450980392157,
-        0.4627450980392157,
-        0.4627450980392157
-      ],
-      "alpha": 1,
-      "hex": "#767676"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.600": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "alpha": 1,
-      "hex": "#666666"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.700": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.30196078431372547,
-        0.30196078431372547,
-        0.30196078431372547
-      ],
-      "alpha": 1,
-      "hex": "#4d4d4d"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.800": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.2,
-        0.2,
-        0.2
-      ],
-      "alpha": 1,
-      "hex": "#333333"
-    },
-  },
-  "Color.Color.Neutral.SolidGray.900": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.10196078431372549,
-        0.10196078431372549,
-        0.10196078431372549
-      ],
-      "alpha": 1,
-      "hex": "#1a1a1a"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.50": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.050980392156862744,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.100": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.10196078431372549,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.200": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.2,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.300": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.30196078431372547,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.400": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.4,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.420": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.4196078431372549,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.500": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.5019607843137255,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.536": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.5411764705882353,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.600": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.6,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.700": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.7019607843137254,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.800": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.8,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Neutral.OpacityGray.900": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0,
-        0,
-        0
-      ],
-      "alpha": 0.9019607843137255,
-      "hex": "#000000"
-    },
-  },
-  "Color.Color.Semantic.Success.1": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.1450980392156863,
-        0.615686274509804,
-        0.38823529411764707
-      ],
-      "alpha": 1,
-      "hex": "#259d63"
-    },
-  },
-  "Color.Color.Semantic.Success.2": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.09803921568627451,
-        0.47843137254901963,
-        0.29411764705882354
-      ],
-      "alpha": 1,
-      "hex": "#197a4b"
-    },
-  },
-  "Color.Color.Semantic.Error.1": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.9254901960784314,
+        0.8078431487083435,
         0,
         0
       ],
       "alpha": 1,
-      "hex": "#ec0000"
+      "hex": "#CE0000"
     },
   },
-  "Color.Color.Semantic.Error.2": {
+  "Color.Semantic.Warning.Yellow.1": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.807843137254902,
-        0,
+        0.7176470756530762,
+        0.5607843399047852,
         0
       ],
       "alpha": 1,
-      "hex": "#ce0000"
+      "hex": "#B78F00"
     },
   },
-  "Color.Color.Semantic.Warning.Yellow.1": {
+  "Color.Semantic.Warning.Yellow.2": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7176470588235294,
-        0.5607843137254902,
-        0
-      ],
-      "alpha": 1,
-      "hex": "#b78f00"
-    },
-  },
-  "Color.Color.Semantic.Warning.Yellow.2": {
-    ".": {
-      "colorSpace": "srgb",
-      "components": [
-        0.5725490196078431,
-        0.4470588235294118,
+        0.572549045085907,
+        0.4470588266849518,
         0
       ],
       "alpha": 1,
       "hex": "#927200"
     },
   },
-  "Color.Color.Semantic.Warning.Orange.1": {
+  "Color.Semantic.Warning.Orange.1": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.984313725490196,
-        0.3568627450980392,
-        0.00392156862745098
+        0.9843137264251709,
+        0.35686275362968445,
+        0.003921568859368563
       ],
       "alpha": 1,
-      "hex": "#fb5b01"
+      "hex": "#FB5B01"
     },
   },
-  "Color.Color.Semantic.Warning.Orange.2": {
+  "Color.Semantic.Warning.Orange.2": {
     ".": {
       "colorSpace": "srgb",
       "components": [
-        0.7803921568627451,
-        0.2784313725490196,
+        0.7803921699523926,
+        0.27843138575553894,
         0
       ],
       "alpha": 1,
-      "hex": "#c74700"
+      "hex": "#C74700"
     },
   },
-  "Typography.FontWeight.400": {
-    ".": "400",
+  "FontWeight.400": {
+    ".": 400,
   },
-  "Typography.FontWeight.700": {
-    ".": "700",
+  "FontWeight.700": {
+    ".": 700,
   },
-  "Typography.FontSize.14": {
-    ".": {
-      "value": 14,
-      "unit": "px"
-    },
+  "FontSize.14": {
+    ".": 14,
   },
-  "Typography.FontSize.16": {
-    ".": {
-      "value": 16,
-      "unit": "px"
-    },
+  "FontSize.16": {
+    ".": 16,
   },
-  "Typography.FontSize.17": {
-    ".": {
-      "value": 17,
-      "unit": "px"
-    },
+  "FontSize.17": {
+    ".": 17,
   },
-  "Typography.FontSize.18": {
-    ".": {
-      "value": 18,
-      "unit": "px"
-    },
+  "FontSize.18": {
+    ".": 18,
   },
-  "Typography.FontSize.20": {
-    ".": {
-      "value": 20,
-      "unit": "px"
-    },
+  "FontSize.20": {
+    ".": 20,
   },
-  "Typography.FontSize.22": {
-    ".": {
-      "value": 22,
-      "unit": "px"
-    },
+  "FontSize.22": {
+    ".": 22,
   },
-  "Typography.FontSize.24": {
-    ".": {
-      "value": 24,
-      "unit": "px"
-    },
+  "FontSize.24": {
+    ".": 24,
   },
-  "Typography.FontSize.26": {
-    ".": {
-      "value": 26,
-      "unit": "px"
-    },
+  "FontSize.26": {
+    ".": 26,
   },
-  "Typography.FontSize.28": {
-    ".": {
-      "value": 28,
-      "unit": "px"
-    },
+  "FontSize.28": {
+    ".": 28,
   },
-  "Typography.FontSize.32": {
-    ".": {
-      "value": 32,
-      "unit": "px"
-    },
+  "FontSize.32": {
+    ".": 32,
   },
-  "Typography.FontSize.36": {
-    ".": {
-      "value": 36,
-      "unit": "px"
-    },
+  "FontSize.36": {
+    ".": 36,
   },
-  "Typography.FontSize.45": {
-    ".": {
-      "value": 45,
-      "unit": "px"
-    },
+  "FontSize.45": {
+    ".": 45,
   },
-  "Typography.FontSize.48": {
-    ".": {
-      "value": 48,
-      "unit": "px"
-    },
+  "FontSize.48": {
+    ".": 48,
   },
-  "Typography.FontSize.57": {
-    ".": {
-      "value": 57,
-      "unit": "px"
-    },
+  "FontSize.57": {
+    ".": 57,
   },
-  "Typography.FontSize.64": {
-    ".": {
-      "value": 64,
-      "unit": "px"
-    },
+  "FontSize.64": {
+    ".": 64,
   },
-  "Typography.FontFamily.Sans": {
+  "FontFamily.Sans": {
     ".": "Noto Sans JP",
   },
-  "Typography.FontFamily.Mono": {
+  "FontFamily.Mono": {
     ".": "Noto Sans Mono",
   },
-  "Size.BorderRadius.4": {
-    ".": {
-      "value": 4,
-      "unit": "px"
-    },
+  "BorderRadius.4": {
+    ".": 4,
   },
-  "Size.BorderRadius.6": {
-    ".": {
-      "value": 6,
-      "unit": "px"
-    },
+  "BorderRadius.6": {
+    ".": 6,
   },
-  "Size.BorderRadius.8": {
-    ".": {
-      "value": 8,
-      "unit": "px"
-    },
+  "BorderRadius.8": {
+    ".": 8,
   },
-  "Size.BorderRadius.12": {
-    ".": {
-      "value": 12,
-      "unit": "px"
-    },
+  "BorderRadius.12": {
+    ".": 12,
   },
-  "Size.BorderRadius.16": {
-    ".": {
-      "value": 16,
-      "unit": "px"
-    },
+  "BorderRadius.16": {
+    ".": 16,
   },
-  "Size.BorderRadius.24": {
-    ".": {
-      "value": 24,
-      "unit": "px"
-    },
+  "BorderRadius.24": {
+    ".": 24,
   },
-  "Size.BorderRadius.32": {
-    ".": {
-      "value": 32,
-      "unit": "px"
-    },
+  "BorderRadius.32": {
+    ".": 32,
   },
-  "Size.BorderRadius.Full": {
-    ".": {
-      "value": 9999,
-      "unit": "px"
-    },
-  },
-  "Effect-styles.Elevation.1": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 1,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 5,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 2,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 8,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 1,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.2": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 1,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 6,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 2,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 12,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 2,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.3": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 1,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 6,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 4,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 16,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 3,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.4": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 2,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 6,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 6,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 20,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 4,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.5": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 2,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 10,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 8,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 24,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 5,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.6": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 3,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 12,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 10,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 30,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 6,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.7": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 3,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 14,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 12,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 36,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 7,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
-  },
-  "Effect-styles.Elevation.8": {
-    ".": [
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.30196078431372547,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 3,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 16,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 0,
-          "unit": "px"
-        },
-        "inset": false
-      },
-      {
-        "color": {
-          "colorSpace": "srgb",
-          "components": [
-            0,
-            0,
-            0
-          ],
-          "alpha": 0.10196078431372549,
-          "hex": "#000000"
-        },
-        "offsetX": {
-          "value": 0,
-          "unit": "px"
-        },
-        "offsetY": {
-          "value": 14,
-          "unit": "px"
-        },
-        "blur": {
-          "value": 40,
-          "unit": "px"
-        },
-        "spread": {
-          "value": 7,
-          "unit": "px"
-        },
-        "inset": false
-      }
-    ],
+  "BorderRadius.Full": {
+    ".": 9999,
   },
 };
 
